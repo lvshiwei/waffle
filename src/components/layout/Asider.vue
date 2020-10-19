@@ -1,15 +1,21 @@
 <template>
   <div class="aside">
-    left
+    <Toolbox />
   </div>
 </template>
 
 <script>
-export default {};
+import Toolbox from "../panel/toolbox/Index";
+
+export default {
+  name: "Asider",
+  components: { Toolbox },
+};
 </script>
 
 <style scoped>
 .aside {
   border-right: 0.5px solid #e6e6e6;
+  height: 100%;
 }
 </style>

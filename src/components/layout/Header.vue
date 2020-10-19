@@ -4,8 +4,8 @@
       <!-- <el-image class="logo" :src="logo" :fit="fit"></el-image> -->
       <div class="logo">LOGO</div>
     </el-col>
-    <el-col :span="18"><Navigator /></el-col>
-    <el-col :span="3">
+    <el-col :span="12"><Navigator /></el-col>
+    <el-col :span="9">
       <div class="top-right"><i class="el-icon-user"></i> jack@email.com</div>
     </el-col>
   </el-row>
@@ -36,6 +36,7 @@ export default {
 }
 .top-right{
   line-height: 60px;
+  text-align:right;
   vertical-align : middle;
 }
 </style>

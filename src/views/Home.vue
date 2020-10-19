@@ -1,13 +1,14 @@
 <template>
-  <div class="home">
-    <Layout>main </Layout>
-  </div>
+  <Layout>
+    <Whiteboard />
+  </Layout>
 </template>
 
 <script>
 import Layout from "@/components/layout/Index";
+import Whiteboard from "@/components/Whiteboard";
 export default {
   name: "home",
-  components: { Layout },
+  components: { Layout, Whiteboard },
 };
 </script>

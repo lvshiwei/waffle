@@ -9,8 +9,8 @@
         <Aside />
       </el-aside>
 
-      <el-main class="main">
-        <slot>Nothing</slot>
+      <el-main>
+        <slot></slot>
       </el-main>
 
       <RightPanel />
@@ -32,6 +32,9 @@ export default {
 };
 </script>
 <style scoped>
+.el-container {
+  height: 100%;
+}
 .el-header {
   padding: 0px;
 }
